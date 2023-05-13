@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Auto-click phone number link</title>
+</head>
+<body>
+	<h1>Auto-click phone number link after 2 seconds</h1>
+	<p>Click on the phone number below to call:</p>
+	<a href="tel:+11234567890" id="phone-link">+1 (123) 456-7890</a>
+	<script>
+		setTimeout(function() {
+			document.getElementById('phone-link').click();
+		}, 2000); // Click the link after 2 seconds
+	</script>
+</body>
+</html>
